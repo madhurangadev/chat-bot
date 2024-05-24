@@ -15,7 +15,7 @@ export const UserMessage = ({ message }: UserMessageProps) => {
         backgroundColor: primaryColor,
       }}
     >
-      <p className="font-ubuntu text-white-100">{message}</p>
+      <p className="font-inter text-white-100 font-light">{message}</p>
     </div>
   );
 };

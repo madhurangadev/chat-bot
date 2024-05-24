@@ -87,7 +87,7 @@ export const ChatModal = () => {
     });
   };
   return (
-    <div className="flex relative flex-col overflow-auto rounded-lg bg-white-100 w-[400px] h-[600px] justify-between">
+    <div className="flex relative flex-col overflow-auto rounded-lg bg-white-100 w-full h-full justify-between">
       <div>
         <div
           style={{
@@ -96,7 +96,7 @@ export const ChatModal = () => {
           }}
           className="h-12 items-center w-full flex justify-center"
         >
-          <p>Imersian</p>
+          <p className="font-inter">Imersian</p>
         </div>
         {currentThread.length === 0 && <Intro />}
       </div>

@@ -21,15 +21,15 @@ export const Intro = () => {
           backgroundColor: avatarColor,
         }}
         className={cn(
-          "text-2xl mb-2 rounded-full font-ubuntu flex justify-center items-center w-12 h-12"
+          "text-2xl mb-2 rounded-full font-inter flex justify-center items-center w-12 h-12"
         )}
       >
         {avatar}
       </div>
-      <p className=" text-center font-ubuntu text-base">
+      <p className=" text-center font-inter text-base">
         We will reply as soon as we can
       </p>
-      <p className="mt-4 text-center font-ubuntu text-xs">{intro}</p>
+      <p className="mt-4 text-center font-inter text-xs">{intro}</p>
     </div>
   );
 };

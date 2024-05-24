@@ -14,8 +14,6 @@ const config: Config = {
   theme: {
     fontFamily: {
       inter: ["var(--font-inter)"],
-      ubuntu: ["var(--font-ubuntu-mono)"],
-      nunito: ["var(--font-nunito)"],
     },
     extend: {
       backgroundImage: {

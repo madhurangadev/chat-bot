@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { inter, ubuntu_mono, nunito } from "@/utils/fonts";
+import { inter } from "@/utils/fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,9 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter} ${ubuntu_mono} ${nunito}`}>
-        {children}
-      </body>
+      <body className={`${inter}`}>{children}</body>
     </html>
   );
 }

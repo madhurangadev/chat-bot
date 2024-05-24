@@ -26,7 +26,7 @@ export const TextInput = ({
         value={text}
         placeholder="Write a reply..."
         onChange={(e) => setText(e.target.value)}
-        className="w-full p-2 font-normal  outline-none mt-1  mb-1 sm:text-sm text-grey-500"
+        className="w-full resize-none p-2 font-normal  outline-none mt-1  mb-1 sm:text-sm text-grey-500"
       />
       <button
         onClick={() => setEnableEmojis(!enableEmojis)}

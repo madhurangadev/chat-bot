@@ -19,4 +19,6 @@ export type ThemeStoreType = {
   avatar: string;
   avatarColor: string;
   intro: string;
+  height: string;
+  width: string;
 };
